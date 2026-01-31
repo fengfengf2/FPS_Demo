@@ -1,0 +1,12 @@
+# 核心UE5资产
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+# 常见大文件类型
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+# 如果使用C++，可能需要包含构建文件（但通常不推荐上传）
+# *.dll filter=lfs diff=lfs merge=lfs -text
